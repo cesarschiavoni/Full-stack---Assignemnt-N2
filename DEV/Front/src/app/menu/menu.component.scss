@@ -1,0 +1,129 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 126px;
+  background-color: #222222;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.title-center {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+mat-toolbar {
+  background-color: #222222 !important;
+  justify-content: center;
+  color: rgba( 255,255,255, 0.85);
+  height: 40px;
+  padding: 0px;
+}
+
+.title-center {
+  flex: 1 1 auto;
+}
+
+.menu {
+  background-color: #222222;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  color: rgba( 255,255,255, 0.85);
+  font-size: 16px;
+}
+
+
+
+.menu a , .menu a:visited {
+  color: rgba( 255,255,255, 0.85);
+}
+
+.menu a {
+  display: block;
+  margin-top: 18px;
+  margin-left: 18px;
+  width: 89px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 1slinear;
+  /* font-family: Roboto, Arial, Helvetica, sans-serif; 
+  font-weight: bold; */
+  // font-family: Ubuntu, sans-serif; 
+}
+
+
+
+
+.menu a i {
+  font-size: 48px;
+  color: rgba( 255,255,255, 0.85);
+  transition: background-color 0.3s linear;
+}
+
+.menu a:hover,  .menu a:hover i{
+  background-color: #eee;
+  color: #222222;
+  transition: background-color 0.3s linear;
+}
+.router-link {
+  color: #Edbb4c !important;
+  font-size: small;
+  /* font-family: initial; */
+}
+
+.router-link-active {
+  font-size: small; 
+}
+
+.mat-menu-item .mat-icon {
+  margin-right: 0px;
+}
+
+
+
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+
+.letraChica {
+  font: 500 15px/24px Montserrat, sans-serif;
+}
+
+
+
+
+.animation {
+  animation: meow-talk 2s linear infinite;
+}
+
+/* @keyframes meow-talk {
+  0%   { opacity: 0; }
+  10%  { opacity: 0; }
+  20%  { opacity: 1; }
+  30%  { opacity: 1; }
+  60%  { opacity: 0; }
+  100% { opacity: 0; }
+} */
+
+
+
+
+
+

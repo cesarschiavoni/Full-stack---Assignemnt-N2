@@ -1,0 +1,63 @@
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessComponents.dll
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessComponents.pdb
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessEntities.dll
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\bin\Release\BackEnd.DataAccessComponents.dll
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessEntities.pdb
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\bin\Release\BackEnd.DataAccessComponents.pdb
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.csprojAssemblyReference.cache
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.csproj.CoreCompileInputs.cache
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.csproj.CopyComplete
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.dll
+F:\Proyecto Cocheras\2\TemporayGarage\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.pdb
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessComponents.dll.config
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessComponents.dll
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessComponents.pdb
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessEntities.dll
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\BackEnd.DataAccessComponents.dll
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\MySql.Data.dll
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessEntities.pdb
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\BackEnd.DataAccessComponents.pdb
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\BackEnd.DataAccessComponents.dll.config
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\MySql.Data.xml
+C:\Desa\WS\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.csprojAssemblyReference.cache
+C:\Desa\WS\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.csproj.CoreCompileInputs.cache
+C:\Desa\WS\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.csproj.CopyComplete
+C:\Desa\WS\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.dll
+C:\Desa\WS\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.pdb
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\Zstandard.Net.dll
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\K4os.Compression.LZ4.Streams.dll
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\Ubiety.Dns.Core.dll
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\System.Memory.dll
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\System.Buffers.dll
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\K4os.Compression.LZ4.dll
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\K4os.Hash.xxHash.dll
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Desa\WS\BackEnd.BusinessComponents\bin\Release\System.Buffers.xml
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessComponents.dll.config
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessComponents.dll
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessComponents.pdb
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessEntities.dll
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\BackEnd.DataAccessComponents.dll
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\MySql.Data.dll
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\Zstandard.Net.dll
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\K4os.Compression.LZ4.Streams.dll
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\Ubiety.Dns.Core.dll
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\System.Buffers.dll
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\K4os.Compression.LZ4.dll
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\K4os.Hash.xxHash.dll
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\System.Memory.dll
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessEntities.pdb
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\BackEnd.BusinessEntities.dll.config
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\BackEnd.DataAccessComponents.pdb
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\BackEnd.DataAccessComponents.dll.config
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\MySql.Data.xml
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\bin\Release\System.Buffers.xml
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.csprojAssemblyReference.cache
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.csproj.CoreCompileInputs.cache
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.csproj.CopyComplete
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.dll
+C:\Desa\TR\WS_Tr\BackEnd.BusinessComponents\obj\Release\BackEnd.BusinessComponents.pdb

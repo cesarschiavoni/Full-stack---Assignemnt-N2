@@ -1,0 +1,77 @@
+<mat-sidenav-container (backdropClick)="close('backdrop')" class="sidenav-container">
+  <mat-sidenav mode="over" #sidenav (keydn.escape)="close('escape')" class="sidenav mat-typography">
+    <mat-toolbar>
+    </mat-toolbar>
+    <mat-nav-list class="menu">
+      <a routerLink="/home" title="Tus inmuebles" (click)="sidenav.close()" routerLinkActive="router-link-active"
+        class="router-link">
+        <img src="../../assets/img/Menu/Inmuebles.png" style="width: 37px;height: 37px;margin-top: 9px;" />
+        <br>
+        <h1>Principal</h1>
+      </a>     
+        <span [hidden]="!validtoken">
+          <a routerLink="/wallet" title="Tus billeteras" (click)="sidenav.close()"
+            routerLinkActive="router-link-active" class="router-link">
+            <img src="../../assets/img/Menu/Contacto.png" style="width: 37px;height: 37px;margin-top: 9px;" />
+            <br>
+            <h1>Billeteras</h1>
+          </a>
+          <a routerLink="/prici" (click)="sidenav.close()" title="Precio Ethereum" routerLinkActive="router-link-active"
+            class="router-link">
+            <img src="../../assets/img/Menu/Promo.png" style="width: 37px;height: 37px;margin-top: 9px;" />
+            <br>
+            <h1>Precio</h1>
+          </a>
+        </span>
+  
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content style="background-color: #ffffff">
+    <mat-toolbar color="primary" style="min-height: 5%;z-index: 10;">
+
+      <span style="padding: 0px 16px;width: 100px;">
+        <button matRipple mat-icon-button (click)="sidenav.open()" title="Menu">
+          <mat-icon color="primary">menu</mat-icon>
+        </button>
+      </span>
+      <span class="example-fill-remaining-space"></span>
+
+      <span style="color: white;top: 50%;margin-top: 5px;">
+
+      </span>
+
+
+      <span class="example-fill-remaining-space"></span>
+
+
+      <span [hidden]="!validtoken" style="padding: 0px 16px;width: 100px;text-align: right;" class="letraChica">{{
+        userName }}&nbsp;
+
+        <button matRipple mat-icon-button color="primary" [matMenuTriggerFor]="menu">
+          <img alt="Login" src="../../assets/img/Menu/person.png" style="height: 30px;width: 30px;" />
+        </button>
+        <mat-menu #menu="matMenu">
+          <button matRipple (click)="LogOut()" mat-menu-item>
+            <mat-icon>call_missed_outgoing</mat-icon>
+            <span>Cerrar sesión</span>
+          </button>
+        </mat-menu>
+      </span>
+
+
+      <span [hidden]="validtoken" style="padding: 0px 16px;width: 100px;text-align: right;top: 50%;margin-top: 11px;"
+        class="letraChica">
+        <a [routerLink]="['/login']" routerLinkActive="router-link-active" class="router-link">
+          <img src="../../assets/img/Menu/person_outline.png" style="height: 30px;width: 30px;" />
+        </a>
+      </span>
+
+
+    </mat-toolbar>
+
+    <router-outlet>
+
+    </router-outlet>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,41 @@
+<div *ngIf="isDesktop">
+    <button mat-icon-button class="cerrar" (click)="Regresar(false)" style="right: 38px !important;" title="Cerrar">
+        <mat-icon aria-hidden="false">close</mat-icon>
+    </button>
+</div>
+<div *ngIf="!isDesktop">
+    <button mat-icon-button class="cerrar-mov" (click)="Regresar(false)" title="Cerrar">
+        <mat-icon aria-hidden="false">close</mat-icon>
+    </button>
+</div>
+<mat-progress-spinner style="margin:0 auto;" diameter="300" mode="indeterminate" class="loading"
+    *ngIf="mostrarCargando">
+</mat-progress-spinner>
+<mat-card class="mat-typography" *ngIf="wallet">
+    <form #f="ngForm">
+        <div>
+            <h2>{{ operacion === 'editar' ? 'Editar' : 'Agregar'}}</h2>
+        </div>      
+        <h3>Nombre</h3>
+        <mat-form-field class="mat-typography" appearance="outline" class="all-width">
+            <input matNativeControl required #Name="ngModel" name="Name" autocomplete="off"
+                autocapitalize="off" autofocus [(ngModel)]="wallet.Name" />
+            <mat-error *ngIf="Name.invalid">Nombre requerido</mat-error>
+        </mat-form-field>
+        <h3>Saldo de Ethereum</h3>
+        <mat-form-field appearance="outline" class="all-width">
+            <input matNativeControl required type="number" min="0" max="5000" name="AccountBalanceEth"
+                [(ngModel)]="wallet.AccountBalanceEth" />
+        </mat-form-field>
+        <mat-checkbox [(ngModel)]="wallet.Favorite" name="Favorite">
+            Favorito
+        </mat-checkbox>        
+    </form>
+    <div [hidden]="clicked">
+        <br />
+        <button matRipple mat-raised-button color="primary" [disabled]="f.invalid"
+            (click)="clickAceptar(); Guardar(f.value); ">
+            Aceptar
+        </button>
+    </div>
+</mat-card>

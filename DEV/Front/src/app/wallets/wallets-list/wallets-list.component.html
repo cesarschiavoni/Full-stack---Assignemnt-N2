@@ -1,0 +1,60 @@
+<div *ngIf="wallets" class="mat-typography">
+    <table mat-table [dataSource]="wallets">
+
+
+        <ng-container matColumnDef="Id">
+            <th mat-header-cell *matHeaderCellDef> Id </th>
+            <td mat-cell *matCellDef="let element"> {{element.Id}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Name">
+            <th mat-header-cell *matHeaderCellDef> Name </th>
+            <td mat-cell *matCellDef="let element"> {{element.Name}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="AccountBalanceEth">
+            <th mat-header-cell *matHeaderCellDef> AccountBalanceEth </th>
+            <td mat-cell *matCellDef="let element"> {{element.AccountBalanceEth}} </td>
+        </ng-container>
+
+
+        <ng-container matColumnDef="TranDate">
+            <th mat-header-cell *matHeaderCellDef> TranDate </th>
+            <td mat-cell *matCellDef="let element">{{element.TranDate | date:'dd/MM'}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="Favorite">
+            <th mat-header-cell *matHeaderCellDef> Favorite </th>
+            <td mat-cell *matCellDef="let element">            
+                <img title="Favorito" *ngIf="element.Favorite" (click)="Favorito(element);"  src="../../assets/img/Menu/estrella-llena.png" class="imglist" style="height: 28px;margin: 10px;" />
+                <img title="Favorito" *ngIf="!element.Favorite" (click)="Favorito(element);"  src="../../assets/img/Menu/estrella-vacia.png" class="imglist" style="height: 28px;margin: 10px;" />
+            </td>           
+        </ng-container>
+
+        <ng-container matColumnDef="Old">
+            <th mat-header-cell *matHeaderCellDef> Old </th>
+            <td mat-cell *matCellDef="let element">{{element.Old}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="UserKey">
+            <th mat-header-cell *matHeaderCellDef> UserKey </th>
+            <td mat-cell *matCellDef="let element">{{element.UserKey}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="Acciones">
+            <th mat-header-cell *matHeaderCellDef></th>
+            <td mat-cell *matCellDef="let element">               
+                <img title="Editar" (click)="Seleccionar(element);" src="../../assets/img/Menu/editar.png" class="imglist" style="height: 28px;margin: 10px;" />   
+            </td>
+        </ng-container>
+
+
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+
+
+        <tr mat-row matTooltip="{{row.Tooltip}}" *matRowDef="let row; let even = even;  columns: displayedColumns;">
+        </tr>
+
+    </table>
+</div>

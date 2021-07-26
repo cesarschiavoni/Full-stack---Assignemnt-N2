@@ -1,0 +1,23 @@
+<div style="height: 93%;" class="mat-typography">
+    <div *ngIf="isDesktop">
+      <button mat-icon-button class="cerrar" (click)="Regresar()" title="Cerrar">
+        <mat-icon aria-hidden="false">close</mat-icon>
+      </button>
+    </div>
+    <div *ngIf="!isDesktop">
+      <button mat-icon-button class="cerrar-mov" (click)="Regresar()" title="Cerrar">
+        <mat-icon aria-hidden="false">close</mat-icon>
+      </button>
+    </div>
+  <mat-card>
+    <h2>Billeteras</h2>  
+    <mat-progress-spinner style="margin:0 auto;" diameter="300" mode="indeterminate" class="loading"
+      *ngIf="mostrarCargando">
+    </mat-progress-spinner>
+    <app-wallets-list [wallets]="wallets" (seleccion)="Seleccionar($event)">
+    </app-wallets-list>
+    <br>
+    <button mat-raised-button color="primary" class="add" title="Crear una Billetera" (click)="Agregar()">+</button> 
+  </mat-card>
+  
+  </div>

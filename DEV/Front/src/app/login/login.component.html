@@ -1,0 +1,81 @@
+<div style="height: 93%;" class="mat-typography">
+
+  <div *ngIf="isDesktop">
+    <button mat-icon-button class="cerrar" (click)="Regresar()" title="Cerrar">
+      <mat-icon aria-hidden="false">close</mat-icon>
+    </button>
+  </div>
+  <div *ngIf="!isDesktop">
+    <button mat-icon-button class="cerrar-mov" (click)="Regresar()" title="Cerrar">
+      <mat-icon aria-hidden="false">close</mat-icon>
+    </button>
+  </div>
+  <div *ngIf="isDesktop" class="mat-typography">
+    <div style="display: block;  padding: 40px;  width: 300px;  float: right;">
+      <form novalidate #f="ngForm">
+        <h2>Iniciar sesión</h2>
+        <div class="form-Group">
+          <h3>Email</h3>
+          <mat-form-field appearance="outline" class="all-width">
+            <input matNativeControl [(ngModel)]="username" name="username" required
+              (keyup.enter)="clickAceptar(); login();">
+          </mat-form-field>
+        </div>
+        <div class="form-Group">
+          <h3>Contraseña</h3>
+          <mat-form-field appearance="outline" class="all-width">
+            <input matNativeControl [type]="hideNC ? 'password' : 'text'" required [(ngModel)]="password"
+              name="password" (keyup.enter)="clickAceptar(); login();">
+            <button matRipple mat-icon-button matSuffix (mouseenter)="hideNC = !hideNC"
+              [attr.aria-label]="'Ocultar contraseña'" [attr.aria-pressed]="hideNC">
+              <mat-icon>{{hideNC ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+          </mat-form-field>
+        </div>       
+        <div [hidden]="clicked">
+          <button matRipple mat-raised-button color="primary" (click)="clickAceptar(); login();">
+            Aceptar
+          </button>
+        </div>      
+        <br>
+        <br>      
+        <br>
+        <br>        
+      </form>
+    </div>
+  </div>
+  <div *ngIf="!isDesktop">
+    <div style="display: block;  padding: 16px;">
+      <form novalidate #f="ngForm">
+        <h2>Iniciar sesión</h2>
+        <div class="form-Group">
+          <h3>Email</h3>
+          <mat-form-field appearance="outline" class="all-width">
+            <input matNativeControl [(ngModel)]="username" name="username" required
+              (keyup.enter)="clickAceptar(); login();">
+          </mat-form-field>
+        </div>
+        <div class="form-Group">
+          <h3>Contraseña</h3>
+          <mat-form-field appearance="outline" class="all-width">
+            <input matNativeControl [type]="hideNC ? 'password' : 'text'" required [(ngModel)]="password"
+              (keyup.enter)="clickAceptar(); login();" name="password">
+            <button matRipple mat-icon-button matSuffix (mouseenter)="hideNC = !hideNC"
+              [attr.aria-label]="'Ocultar contraseña'" [attr.aria-pressed]="hideNC">
+              <mat-icon>{{hideNC ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+          </mat-form-field>
+        </div>
+        <div [hidden]="clicked">
+          <button matRipple mat-raised-button color="primary" (click)="clickAceptar(); login();">
+            Aceptar
+          </button>
+        </div>      
+        <br>
+        <br>       
+        <br>
+        <br>       
+      </form>
+    </div>
+  </div>
+</div>
